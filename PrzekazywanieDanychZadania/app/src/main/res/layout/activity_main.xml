@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--Zadanie 1-->
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Przekaz Dane"/>
+
+    <!--Zadanie 2-->
+
+    <EditText
+        android:id="@+id/Liczba1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Podaj pierwsza liczbe"/>
+
+    <EditText
+        android:id="@+id/Liczba2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Podaj druga liczbe"/>
+
+    <Button
+        android:id="@+id/btn_kalkulator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oblicz"/>
+
+    <!--Zadanie 4-->
+
+    <!--<EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Podaj Imie:"/>
+
+    <EditText
+        android:id="@+id/year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Podaj Wiek:"/>
+
+    <Button
+        android:id="@+id/btn_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wyslij dane"/>-->
+
+    <!--Zadanie 5-->
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Button
+        android:id="@+id/btn_zapisz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zapisz"/>
+
+</LinearLayout>
